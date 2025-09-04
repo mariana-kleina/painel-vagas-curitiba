@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# 🚀 Painel de Vagas de T.I. - Curitiba
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de uma Single Page Application (SPA) desenvolvida em React que exibe um painel interativo de vagas de emprego na área de tecnologia para a cidade de Curitiba.
 
-## Available Scripts
+O projeto foi criado como parte de um estudo prático, cobrindo conceitos essenciais do desenvolvimento front-end moderno, desde a criação de componentes e gerenciamento de estado até o consumo de uma API e roteamento.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Funcionalidades Principais
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Listagem Dinâmica:** As vagas são carregadas de uma API externa (MockAPI).
+* **Página de Detalhes:** Navegação para uma página dedicada para cada vaga, exibindo informações completas.
+* **Cadastro de Novas Vagas:** Um formulário permite adicionar novas vagas à API.
+* **Filtro em Tempo Real:** A lista de vagas pode ser filtrada dinamicamente por tecnologia.
+* **Feedback Visual:** Indicadores de carregamento (spinner) e mensagens de erro para uma melhor experiência do usuário.
+* **Design Responsivo:** O layout se adapta a telas de desktop e mobile.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **React:** Biblioteca principal para a construção da interface.
+* **React Router:** Para gerenciamento de rotas e navegação entre páginas.
+* **Axios:** Para fazer as requisições HTTP (GET e POST) à API.
+* **CSS Modules:** Para estilização escopada e organizada dos componentes.
+* **Git & GitHub:** Para versionamento e hospedagem do código.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Como Rodar o Projeto Localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para executar este projeto na sua máquina, siga os passos abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/mariana-kleina/painel-vagas-curitiba.git](https://github.com/mariana-kleina/painel-vagas-curitiba.git)
+    ```
 
-### `npm run eject`
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd painel-vagas-curitiba
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4.  **Inicie a aplicação:**
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A aplicação estará disponível em `http://localhost:3000`.
