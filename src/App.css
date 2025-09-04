@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #121212; 
+  color: #e0e0e0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: linear-gradient(to right, #1e3a8a, #3b0764);
+  padding: 40px 20px;
+  color: white;
+  border-bottom: 1px solid #333;
+}
+
+.App-header h1 {
+  margin: 0 0 20px 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  border-radius: 8px;
+  
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #444;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-input::placeholder {
+  color: #a0a0a0;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.App-main {
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 30px;
+}
+
+.job-list {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.feedback-text {
+  font-size: 1.2rem;
+  color: #a0a0a0;
+}
+
+.error-text {
+  color: #ef5350;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 1.8rem;
+  }
+  .search-input {
+    padding: 12px;
+  }
+  .App-main {
+    padding: 20px 10px;
+  }
+}
+
+.add-job-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-job-button:hover {
+  background-color: #2563eb;
+}
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

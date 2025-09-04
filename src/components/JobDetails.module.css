@@ -1,0 +1,60 @@
+.detailsContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  border: 1px solid #333;
+  color: #e0e0e0;
+  text-align: left;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+}
+
+.empresa {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #a0a0a0;
+  margin: 0 0 5px 0;
+}
+
+.localizacao {
+  font-size: 1rem;
+  color: #777;
+  margin: 0 0 25px 0;
+}
+
+.tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #2c3e50;
+  color: #a7c5ff;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.erro {
+  color: #ef5350;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 40px;
+}
+
+.descricao {
+  margin-top: 30px;
+  font-size: 1rem;
+  line-height: 1.6; 
+  white-space: pre-wrap; 
+}

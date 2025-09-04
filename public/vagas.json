@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titulo": "Desenvolvedor(a) React Pleno",
+    "empresa": "DevExperts",
+    "localizacao": "Curitiba, PR",
+    "tags": ["React", "JavaScript", "TypeScript", "CSS"]
+  },
+  {
+    "id": 2,
+    "titulo": "Engenheiro(a) de Software Backend Sênior",
+    "empresa": "Data Systems",
+    "localizacao": "Curitiba, PR (Remoto)",
+    "tags": ["Java", "Spring", "SQL", "Docker", "AWS"]
+  },
+  {
+    "id": 3,
+    "titulo": "Desenvolvedor(a) Fullstack Júnior",
+    "empresa": "InovaTech",
+    "localizacao": "Curitiba, PR",
+    "tags": ["JavaScript", "Node.js", "React", "SQL"]
+  },
+  {
+    "id": 4,
+    "titulo": "Analista de DevOps",
+    "empresa": "CloudMasters",
+    "localizacao": "Curitiba, PR",
+    "tags": ["AWS", "Kubernetes", "Terraform", "CI/CD"]
+  },
+  {
+    "id": 5,
+    "titulo": "Desenvolvedor(a) Vue.js",
+    "empresa": "Web Wizards",
+    "localizacao": "Curitiba, PR (Híbrido)",
+    "tags": ["Vue.js", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "id": 6,
+    "titulo": "Backend Developer (Python)",
+    "empresa": "PySolutions",
+    "localizacao": "Curitiba, PR",
+    "tags": ["Python", "Django", "PostgreSQL", "API"]
+  }
+]
